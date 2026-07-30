@@ -1,0 +1,198 @@
+{
+  "context": {
+    "projectPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Packages",
+    "unityVersion": "6000.3.17f1"
+  },
+  "inputs": [
+    "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Packages/manifest.json",
+    "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Packages/packages-lock.json",
+    "/Applications/Unity/Hub/Editor/6000.3.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.collab-proxy@2.12.4": {
+      "name": "com.unity.collab-proxy",
+      "displayName": "Unity Version Control",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.collab-proxy@0b1559bcd34e",
+      "fingerprint": "0b1559bcd34e3fee21f770e54e68e58e80eae214",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.12.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.feature.development@1.0.2": {
+      "name": "com.unity.feature.development",
+      "displayName": "Engineering",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.feature.development@767aadbc6eb7",
+      "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
+      "version": "1.0.2",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ide.rider@3.0.40": {
+      "name": "com.unity.ide.rider",
+      "displayName": "JetBrains Rider Editor",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.ide.rider@e4950c6d131b",
+      "fingerprint": "e4950c6d131b925f19dd0b34bdf800110120f8de",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.40",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ide.vscode@1.2.5": {
+      "name": "com.unity.ide.vscode",
+      "displayName": "Visual Studio Code Editor",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd",
+      "fingerprint": "82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51",
+      "editorCompatibility": "2019.2.0a12",
+      "version": "1.2.5",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.test-framework@1.6.0": {
+      "name": "com.unity.test-framework",
+      "displayName": "Test Framework",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.test-framework@ecf40a72f8c1",
+      "fingerprint": "ecf40a72f8c1c547313b13904fdcb64f1c114e00",
+      "editorCompatibility": "6000.0.44f1",
+      "version": "1.6.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.timeline@1.8.12": {
+      "name": "com.unity.timeline",
+      "displayName": "Timeline",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.timeline@8cd8509afae5",
+      "fingerprint": "8cd8509afae5d2655af4657a214db1b563c28425",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.8.12",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.ugui@05e8dec4ac02",
+      "fingerprint": "05e8dec4ac02bfad5f92b1877d7685e930bad8b6",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+      "displayName": "Director",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.director",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "displayName": "Particle System",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "displayName": "Custom NUnit",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.ext.nunit@d8c07649098d",
+      "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ide.visualstudio@2.0.27": {
+      "name": "com.unity.ide.visualstudio",
+      "displayName": "Visual Studio Editor",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.ide.visualstudio@dc1ddd4f09b6",
+      "fingerprint": "dc1ddd4f09b68a99b5dc00185f3b7551294e28a7",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.27",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.editorcoroutines@1.1.0": {
+      "name": "com.unity.editorcoroutines",
+      "displayName": "Editor Coroutines",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.editorcoroutines@87a15ed012c2",
+      "fingerprint": "87a15ed012c21ed5d88f4ba868a5b1948294627b",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.1.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.performance.profile-analyzer@1.3.4": {
+      "name": "com.unity.performance.profile-analyzer",
+      "displayName": "Profile Analyzer",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.performance.profile-analyzer@418130329099",
+      "fingerprint": "41813032909958a6281861a5c3afd259645dbf78",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.testtools.codecoverage@1.3.0": {
+      "name": "com.unity.testtools.codecoverage",
+      "displayName": "Code Coverage",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.testtools.codecoverage@19a841221620",
+      "fingerprint": "19a8412216200955baa50132d98cb9fe4770e401",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.settings-manager@2.1.1": {
+      "name": "com.unity.settings-manager",
+      "displayName": "Settings Manager",
+      "resolvedPath": "/Users/maca5/codes/unreal-unity-poc/rust-unity-unreal-poc/unity/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86",
+      "fingerprint": "0b8638c5ce86009d785da17b17aaf629047f64ce",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.1.1",
+      "source": "registry",
+      "testable": false
+    }
+  }
+}
