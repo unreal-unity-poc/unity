@@ -15,5 +15,17 @@
     "com.unity.test-framework": "default",
     "com.unity.testtools.codecoverage": "default"
   },
-  "_fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef"
+  "_fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
+  "oresLint": {
+    "note": "Declared, not installed. ores-lint resolves these from a global install - see .ores-lint/README.md",
+    "requires": {
+      "eslint": ">=9",
+      "typescript-eslint": ">=8 (optional; without it .ts files are skipped)"
+    },
+    "install": "npm i -g eslint typescript-eslint"
+  },
+  "scripts": {
+    "lint:ores": "if [ -f ../../../.ores-lint/lint.sh ]; then sh ../../../.ores-lint/lint.sh; else echo 'ores-lint not installed'; fi",
+    "prepublishOnly": "npm run lint:ores"
+  }
 }
