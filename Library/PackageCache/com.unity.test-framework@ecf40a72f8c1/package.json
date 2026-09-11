@@ -215,5 +215,17 @@
       "path": "Samples~/17_RunningTestsProgrammatically_Solution"
     }
   ],
-  "_fingerprint": "ecf40a72f8c1c547313b13904fdcb64f1c114e00"
+  "_fingerprint": "ecf40a72f8c1c547313b13904fdcb64f1c114e00",
+  "oresLint": {
+    "note": "Declared, not installed. ores-lint resolves these from a global install - see .ores-lint/README.md",
+    "requires": {
+      "eslint": ">=9",
+      "typescript-eslint": ">=8 (optional; without it .ts files are skipped)"
+    },
+    "install": "npm i -g eslint typescript-eslint"
+  },
+  "scripts": {
+    "lint:ores": "if [ -f ../../../.ores-lint/lint.sh ]; then sh ../../../.ores-lint/lint.sh; else echo 'ores-lint not installed'; fi",
+    "prepublishOnly": "npm run lint:ores"
+  }
 }
