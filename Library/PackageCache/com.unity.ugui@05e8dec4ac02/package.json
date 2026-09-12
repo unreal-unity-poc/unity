@@ -19,5 +19,17 @@
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.imgui": "1.0.0"
   },
-  "_fingerprint": "05e8dec4ac02bfad5f92b1877d7685e930bad8b6"
+  "_fingerprint": "05e8dec4ac02bfad5f92b1877d7685e930bad8b6",
+  "oresLint": {
+    "note": "Declared, not installed. ores-lint resolves these from a global install - see .ores-lint/README.md",
+    "requires": {
+      "eslint": ">=9",
+      "typescript-eslint": ">=8 (optional; without it .ts files are skipped)"
+    },
+    "install": "npm i -g eslint typescript-eslint"
+  },
+  "scripts": {
+    "lint:ores": "if [ -f ../../../.ores-lint/lint.sh ]; then sh ../../../.ores-lint/lint.sh; else echo 'ores-lint not installed'; fi",
+    "prepublishOnly": "npm run lint:ores"
+  }
 }
