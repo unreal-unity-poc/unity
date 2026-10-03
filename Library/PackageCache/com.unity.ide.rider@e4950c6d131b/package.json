@@ -22,5 +22,17 @@
     "type": "git",
     "revision": "ac65c165e102e0e3a75f1448b8578d29ba0eaf58"
   },
-  "_fingerprint": "e4950c6d131b925f19dd0b34bdf800110120f8de"
+  "_fingerprint": "e4950c6d131b925f19dd0b34bdf800110120f8de",
+  "oresLint": {
+    "note": "Declared, not installed. ores-lint resolves these from a global install - see .ores-lint/README.md",
+    "requires": {
+      "eslint": ">=9",
+      "typescript-eslint": ">=8 (optional; without it .ts files are skipped)"
+    },
+    "install": "npm i -g eslint typescript-eslint"
+  },
+  "scripts": {
+    "lint:ores": "if [ -f ../../../.ores-lint/lint.sh ]; then sh ../../../.ores-lint/lint.sh; else echo 'ores-lint not installed'; fi",
+    "prepublishOnly": "npm run lint:ores"
+  }
 }
